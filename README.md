@@ -5,14 +5,18 @@
 ########################################################################################
 
 ## List of Projects:
-- ARMsimExample.s : Copy/Paste and get Example 11.1 from the University of Victoria's ARMSim documentation working in ARMSim.
-- integers.s      : 1. Opens a file named "input.txt".
+### - ARMsimExample.s : 
+Copy/Paste and get Example 11.1 from the University of Victoria's ARMSim documentation working in ARMSim.
+### - integers.s      : 
+                    1. Opens a file named "input.txt".
                     2. Repeatedly reads integers from that file and prints the integer to STDOUT.
                     3. Closes the input file when the integers have been exhausted.
                     4. Prints the count of how many integers were read.
                     5. prints out the sum of all the integers
-- sort.s          : Write an assembly program that sorts positive integers. The source file is to be named sort.s The input file is to be named input.txt and will consist of non-negative integers, one integer per line. The output is the same set of integers printed to STDOUT, one per line, but sorted in ascending order.
-- sudoguSolver.s  : Solve Sudoku using well defined functions:
+### - sort.s          : 
+Write an assembly program that sorts positive integers. The source file is to be named sort.s The input file is to be named input.txt and will consist of non-negative integers, one integer per line. The output is the same set of integers printed to STDOUT, one per line, but sorted in ascending order.
+### - sudoguSolver.s  : 
+                    Solve Sudoku using well defined functions:
                     - boolean solve(int puzzle[9][9]);
                     - int findFirstEmpty(int puzzle[9][9]);
                     - boolean unhappyBoard(int puzzle[9][9]);
